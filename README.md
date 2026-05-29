@@ -1,6 +1,6 @@
 <h1>Sorteador de Numeros</h1>
 <br>
-<p>Um sorteador basico de numeros usado para te dar numeros aleatorios selecionandoo um valor maximo e um valor minimo</p>
+<p>Um sorteador basico de numeros usado para te dar numeros aleatorios selecionando um valor maximo e um valor minimo</p>
 <br>
 <a href="https://fafa-dev18.github.io/Number-Generator/">Teste o site aqui</a>
 <br>
