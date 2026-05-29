@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 70px;
+  font-weight: bolder;
+  margin: 30px;
+  text-shadow: 5px 10px 10px #000000;
+  color: rgb(255, 255, 255);
+}
+#h2 {
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 5px 10px 10px #000000;
+  color: rgb(255, 255, 255);
+  padding-top: 0px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 30px;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 630px;
+  width: 600px;
+  margin: 40px auto 40px auto;
+  border-radius: 25px;
+  border: 1px solid #3a3afb;
+  filter: blur(2);
+  box-shadow: 10px 10px 40px 5px #000000;
+}
+
+.text {
+  margin: 50px;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 60px;
+  color: #fff;
+}
+
+input {
+  display: inline-block;
+  width: 200px;
+  height: 74px;
+  border-radius: 14px;
+  opacity: 1;
+  border-width: 1px;
+  margin: 20px;
+  padding-left: 10px;
+  font-size: 30px;
+  border: 1px solid #fff;
+  outline: none;
+  background-color:#3a3afb;
+  color: #fff;
+
+}
+
+button {
+  display: block;
+  width: 200px;
+  height: 74px;
+  margin: 20px auto 20px auto;
+  border: 1px solid #fff;
+  border-radius: 14px;
+  background-color: #3a3afb;
+  box-shadow: 5px 5px 60px 1px #3a3afb;
+  font-size: 40px;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  width: 210px;
+  height: 77px;
+}
+
+button:active {
+  width: 190px;
+  height: 70px;
+}
+
+#result {
+  margin: 40px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.result {
+  border: none;
+  border-radius: 50px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  margin: 20px auto;
+  color: #fff;
+}
+
+#erro {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 50px;
+}
+
+body {
+  background-image: url("./Assets/fundo.png");
+  background-size: cover;
+  filter: blur(2);
+}
